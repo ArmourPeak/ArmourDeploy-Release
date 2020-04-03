@@ -16,7 +16,7 @@ What if we choose not to cache a copy of the macOS installer on every Mac? No pr
 >For Macs that do not already have a macOS installer cached on the system, ArmourDeploy will provide a user interface displaying progress while downloading the OS from Apple, assembling the installer app, and executing 'startosinstall', all with a single click.
 
 ![enter image description here](https://static.wixstatic.com/media/9a545e_c16510e87b9d4a73a2839e8efd8e2514~mv2.png/v1/fill/w_1136,h_827,al_c/SS_shot.png)
->Example policies in Jamf Pro® Self Service. User-initiated, single-click policies will launch ArmourDeploy and perform OS installations and upgrades, even if the user is not an administrator on the Mac. Scope the "Erase All Content & Settings" policies to Help Desk users, who can login to Self Service and run these policies.
+>Example policies in Jamf Pro Self Service. User-initiated, single-click policies will launch ArmourDeploy and perform OS installations and upgrades, even if the user is not an administrator on the Mac. Scope the "Erase All Content & Settings" policies to Help Desk users, who can login to Self Service and run these policies.
 
 ArmourDeploy floats above all other windows, constantly reminding the user that macOS is about to be installed. There is no menu bar or dock item, which keeps the user from quitting the app. For system erase operations, ArmouDeploy always displays a 'cancel' button. Otherwise, the 'cancel' button is not shown unless the --showcancel flag is provided. If no user is logged into the Mac, the GUI will be suppressed, but all operations will continue in the background. Have a look at the various options listed below for running ArmourDeploy.
 
