@@ -38,7 +38,7 @@ USAGE
 
 	--action, -a (Required)
 
-		-install - Runs startosinstall and presents a user interface displaying progress for 									the 'Preparing' phase of the installer prior to the reboot
+		-install - Runs startosinstall and presents a user interface displaying progress for the 'Preparing' phase of the installer prior to the reboot
 		-cache - Caches the latest available build of macOS (specified by --osname) from Apple that is compatible with this Mac. Schedule runs to ensure the latest available build from Apple is being cached. Returns cached build name if installer is currently cached
 		-status - returns true or false if an OS specified by --osname is currently cached. Good for checking status from RMM
 
@@ -46,15 +46,15 @@ USAGE
 
 	--appfolder - Leave the macOS installer in /Applications. By default the installer will be moved to our Application Support folder. If left in /Applications, macOS may remove it after use.
 
-	--erase - Erase All Content And Settings, install a new copy of macOS. Requires **--action install --osname name**
+	--erase - Erase All Content And Settings, install a new copy of macOS. Requires --action install --osname name
 
 	--noforcequit - By default, when using the --erase option, ArmourDeploy will force quit any apps after the 'Preparing' phase, regardless of any unsaved documents, or apps that may prevent logout etc. Use this option to override and prompt to close things safely.
 
-	--noverify - Supresses the captcha presented when using the **--erase** option only. Use this for unattended erase workflows. Implied if no user is logged in to perform the challenge.
+	--noverify - Supresses the captcha presented when using the --erase option only. Use this for unattended erase workflows. Implied if no user is logged in to perform the challenge.
 
-	--osname, -n - (Required) - Name of the macOS Installer to use (ie. Catalina, Mojave, High Sierra). Required for both **--action install** and **--action** **cache** actions.
+	--osname, -n - (Required) - Name of the macOS Installer to use (ie. Catalina, Mojave, High Sierra). Required for --action install, --action cache, and --action status actions.
 
-	--showcancel - Show the cancel button in the UI. The cancel button will always be shown during an **--erase** operation, but is optional for an install/upgrade.
+	--showcancel - Show the cancel button in the UI. The cancel button will always be shown during an --erase operation, but is optional for an install/upgrade.
 
 	--help, h - Display available options
     
