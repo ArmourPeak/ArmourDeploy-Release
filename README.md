@@ -78,6 +78,12 @@ Cache and download macOS Catalina if it doesn't exist, erase all content and set
 
     /Library/Application\ Support/com.armourpeak.armourdeploy/ArmourDeploy.app/Contents/MacOS/ArmourDeploy --action cache install --osname catalina --erase --noverify
 
+## DEBUG
+
+From the local mac, or ssh into the mac running ArmourDeploy:
+
+    log stream --predicate 'subsystem == "com.armourpeak.armourdeploy"' --debug --info
+
 ## FAQ
 Does ArmourDeploy use Apple’s  softwareupdate —fetch-full-installer  to download macOS Catalina?
 
