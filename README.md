@@ -21,7 +21,7 @@ What if we choose not to cache a copy of the macOS installer on every Mac? No pr
 ArmourDeploy floats above all other windows, constantly reminding the user that macOS is about to be installed. There is no menu bar or dock item, which keeps the user from quitting the app. For system erase operations, ArmouDeploy always displays a 'cancel' button. Otherwise, the 'cancel' button is not shown unless the --showcancel flag is provided. If no user is logged into the Mac, the GUI will be suppressed, but all operations will continue in the background. Have a look at the various options listed below for running ArmourDeploy.
 
 ## RELEASE
-
+https://github.com/armourpeak/ArmourDeploy-Release/releases
 
 ## USAGE
 
