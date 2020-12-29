@@ -33,6 +33,9 @@ Elevated privileges (sudo). The --erase option requires ArmourDeploy to be run f
 ## COMPATIBILTIY
 macOS High Sierra, macOS Mojave, macOS Catalina
 
+## BRANDING
+The ArmourPeak logo (80x80) can be replaced by adding your own image in ArmourDeploy.app/Contents/Resources/branding.png
+
 USAGE
 -------
 
