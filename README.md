@@ -31,7 +31,7 @@ https://github.com/armourpeak/ArmourDeploy-Release/releases
 Elevated privileges (sudo). The --erase option requires ArmourDeploy to be run from an APFS formatted volume
 
 ## COMPATIBILTIY
-macOS High Sierra, macOS Mojave, macOS Catalina
+macOS High Sierra, macOS Mojave, macOS Catalina, macOS Big Sur
 
 ## BRANDING
 The ArmourPeak logo (80x80) can be replaced by adding your own image in ArmourDeploy.app/Contents/Resources/branding.png
@@ -88,8 +88,6 @@ From the local mac, or ssh into the mac running ArmourDeploy:
     log stream --predicate 'subsystem == "com.armourpeak.armourdeploy"' --debug --info
 
 ## FAQ
-Why no support for "Big Sur"? It's coming. I'm a busy guy and not a software developer. This tool is used for our Managed Services clients, and we're not rolling out Big Sur yet. 
-
 Does ArmourDeploy use Apple’s  softwareupdate —fetch-full-installer  to download macOS Catalina?
 
 No. Our alpha versions of ArmourDeploy used this feature, and the code base still exists for possible future use, but there were a few reasons we shelved this.
@@ -101,9 +99,10 @@ No. Our alpha versions of ArmourDeploy used this feature, and the code base stil
 
 Can I remove or replace the ArmourPeak logo?
 
-If you would like a “white label” copy of ArmourDeploy for use in your organization or MSP, please reach out to software@armourpeak.com.
-We'll be adding support for branding in a release shortly around when we release support for Big Sur.
+Yes! Just add a square png to the package:
 
-Where's the code? Sorry, I'm not a developer, and my swift skills are still pretty caveman. Maybe I'll open the code up at some point if there's any interest.
+    ArmourDeploy.app/Contents/Resources/branding.png
+
+Where's the source code? Currently, ArmourDeploy source code is not publicly available, but the use of the app is free for you to use.
 
 
