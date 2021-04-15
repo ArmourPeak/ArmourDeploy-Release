@@ -55,9 +55,11 @@ USAGE
 
 	--noverify - Supresses the captcha presented when using the --erase option only. Use this for unattended erase workflows. Implied if no user is logged in to perform the challenge.
 
-	--osname, -n - (Required) - Name of the macOS Installer to use (ie. Catalina, Mojave, High Sierra). Required for --action install, --action cache, and --action status actions.
+	--osname, -n - (Required) - Name of the macOS Installer to use (ie. bigsur, catalina, highsierra). Required for --action install, --action cache, and --action status actions.
 
 	--showcancel - Show the cancel button in the UI. The cancel button will always be shown during an --erase operation, but is optional for an install/upgrade.
+	
+	--seedprogram, -s - Specify: CustomerSeed or customer, DeveloperSeed or developer, PublicSeed or public to cache/install the macOS betas
 
 	--help, h - Display available options
     
